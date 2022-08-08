@@ -1,0 +1,1288 @@
+main{
+    overflow: hidden;
+}
+
+/* navbar */
+
+.navbar{
+    height: 100px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DBDCDF;
+    border-top: 1px solid #DBDCDF;
+}
+
+.navbar-brand{
+    width: 25%;
+}
+
+a.navbar-brand{
+    height: 100px;
+}
+
+.navbar-brand img{
+    margin-top: -7px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar-nav li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17.6px;
+    font-weight: 900;
+}
+
+/* dropdown navs */
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+    left: -100%;
+    display: none;
+    position: absolute;
+    background-image: url('../img/batik.jpg');
+    width: 80vw;
+    height: 100vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+
+/* product */
+.product-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-product {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #DBDCDF;
+    background-color: #fff;
+}
+
+.container-product .image {
+    display: block;
+    width: 368.656px;
+    height: 240px;
+}
+
+
+.container-product:hover .overlay {
+    height: 100%;
+}
+
+.container-product .logo {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product .deskripsi {
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product .up {
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* home */
+
+.container-home{
+    padding: 0 50px 0 50px;
+    box-sizing: border-box;
+    border: 1px solid #DBDCDF;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    height: 1497px;
+}
+
+/* carousel-main/swiper/slider */
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.swiper .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.swiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* product home */
+
+.product-home{
+    margin: 30px 0 30px 0;
+}
+
+.container-product-home {
+    position: relative;
+    width: 360.656px;
+    height: 240px;
+    margin-bottom: 10px;
+    padding-right: 60px;
+    border: 1px solid #DBDCDF;
+    background-color: #fff;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-product-home .image {
+    display: block;
+    width: 368.656px;
+    height: 240px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+
+.container-product-home .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url('../img/batik.jpg');
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    transition: .5s ease;
+}
+
+.container-product-home:hover .overlay {
+    height: 100%;
+}
+
+.container-product-home .logo {
+    color: #000;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product-home .deskripsi {
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product-home .up {
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product-home .detail {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product-home .detail-logo {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container-product-home .btn-light {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    top: 85%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 250PX;
+    background-color: transparent;
+}
+
+.container-product-home .btn-light:hover {
+    background-color: #FFF;
+    color: #000;
+    transition: all 1s;
+}
+
+.slide-up{
+    position: absolute;
+    height: 38px;
+    width: 100%;
+    top: 85%;
+    box-sizing: border-box;
+    border: 1px solid #DBDCDF;
+    border-bottom-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+}
+
+.to-service .btn-dark{
+    background-image: url('../img/batik.jpg');
+    font-size: 30px;
+    width: 500px;
+    border-top-left-radius: 649px;
+    border-top-right-radius: 649px;
+    border-bottom-left-radius: 649px;
+    border-bottom-right-radius: 649px;
+}
+
+.to-service .btn-dark:focus{
+    outline: 0;
+}
+
+.to-service .btn-dark:active{
+    transform: scale(0.98);
+}
+
+/* swiper-responsive */
+
+.swiper-prod{
+    display: none;
+}
+
+/* footer/contacts */
+
+.contacts{
+    width: 100%;
+    height: 300px;
+    background-image: url('../../asset/img/batik.jpg');
+    object-fit: cover;
+    background-size: cover;
+    color: #fff;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+}
+
+.contacts h1{
+    font-size: 20px;
+}
+
+.contact-info{
+    margin: 50px 50px 50px 50px;
+    padding-top: 50px;
+}
+
+/* services */
+
+.container-service{
+    margin: 0 50px 0 50px;
+}
+
+.container-service .prelaude{
+    display: flex;
+}
+
+.container-service .prelaude .btn-dark{
+    background-image: url('../img/batik.jpg');
+    width: 300px;
+    font-size: 20px;
+    border-top-left-radius: 649px;
+    border-top-right-radius: 649px;
+    border-bottom-left-radius: 649px;
+    border-bottom-right-radius: 649px;
+}
+
+.container-service .counter{
+    position: relative;
+    display: flex;
+}
+
+.counter .tahun-berdiri{
+    width: 20%;
+    text-align: center;
+}
+
+.counter .pekerja{
+    width: 20%;
+    text-align: center;
+}
+
+.counter .client{
+    width: 20%;
+    text-align: center;
+}
+
+.counter .client-puas{
+    width: 20%;
+    text-align: center;
+}
+
+.counter .cabang{
+    width: 20%;
+    text-align: center;
+}
+
+.container-service .devolopment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.container-service .box-dev-1{
+    width: 380px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #DBDCDF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-service .box-dev-2{
+    width: 380px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #DBDCDF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-service .box-dev-3{
+    width: 380px;
+    height: 300px;
+    box-sizing: border-box;
+    border: 1px solid #DBDCDF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container-service .one{
+    color: #fff;
+}
+
+.swiper-service{
+    display: none;
+}
+
+/* devs-overlay */
+.container-dev {
+    position: relative;
+    width: 100%;
+}
+
+.container-dev .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.container-dev .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: url('../img/batik.jpg');
+}
+
+.container-dev:hover .overlay {
+    opacity: 1;
+}
+
+.container-dev .img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+}
+
+.container-dev .deskripsi {
+    color: #000;
+    font-size: 15px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-dev .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* expertise */
+
+.container-service .th-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.container-exp {
+    position: relative;
+    width: 100%;
+}
+
+.container-exp .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.container-exp .img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 30%;
+}
+
+.container-exp .deskripsi {
+    color: #000;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-exp .deskripsi h1{
+    font-size: 18px;
+}
+
+.container-service .four .btn-dark{
+    width: 600px;
+    font-size: 40px;
+    background-image: url('../img/batik.jpg');
+    border-top-left-radius: 649px;
+    border-top-right-radius: 649px;
+    border-bottom-left-radius: 649px;
+    border-bottom-right-radius: 649px;
+}
+
+.swiper-exp{
+    display: none;
+}
+
+/* ABOUT US */
+
+.container-about{
+    margin: 50px 60px 50px 60px;
+}
+
+.selubung{
+    background-image: url('../img/batik.jpg');
+}
+
+.container-about .about-2{
+    color: #fff;
+}
+
+.container-about-2 {
+    position: relative;
+    width: 100%;
+}
+
+.container-about-2 .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.container-about-2 .img {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    height: 80%;
+}
+
+.container-about-2 .deskripsi {
+    color: #fff;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container-about-2 .deskripsi h1{
+    font-size: 18px;
+}
+
+.container-about .about-3 .about-baris-1{
+    display: flex;
+}
+
+.container-about .about-3 .about-baris-2{
+    display: flex;
+}
+
+.container-about .about-3 .about-baris-3{
+    display: flex;
+}
+
+.about-3 .about-baris-1 .kiri{
+    width: 50%;
+    position: relative;
+}
+
+.about-3 .about-baris-1 .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.about-3 .about-baris-1 .img {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about-3 .about-baris-1 .kanan{
+    background-image: url('../img/batik.jpg');
+    width: 50%;
+    position: relative;
+}
+
+.about-3 .about-baris-1 .deskripsi {
+    color: #fff;
+    margin: 50px 50px 50px 50px;
+}
+
+.about-3 .about-baris-1 .deskripsi h1{
+    font-size: 30px;
+}
+
+/* baris kedua */
+
+.about-3 .about-baris-2 .kiri{
+    width: 50%;
+    position: relative;
+    background-image: url('../img/batik.jpg');
+}
+
+.about-3 .about-baris-2 .kanan{
+    width: 50%;
+    position: relative;
+}
+
+.about-3 .about-baris-2 .deskripsi {
+    color: #fff;
+    margin: 50px 50px 50px 50px;
+}
+
+.about-3 .about-baris-2 .deskripsi h1{
+    font-size: 30px;
+}
+
+.about-3 .about-baris-2 .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.about-3 .about-baris-2 .img {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* baris ketiga */
+
+.about-3 .about-baris-3 .kiri{
+    width: 50%;
+    position: relative;
+}
+
+.about-3 .about-baris-3 .kanan{
+    width: 50%;
+    position: relative;
+    background-image: url('../img/batik.jpg');
+}
+
+.about-3 .about-baris-3 .image {
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+.about-3 .about-baris-3 .img {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about-3 .about-baris-3 .deskripsi {
+    color: #fff;
+    margin: 50px 50px 50px 50px;
+}
+
+.about-3 .about-baris-3 .deskripsi h1{
+    font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .navbar{
+        height: 100px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #DBDCDF;
+        border-top: 1px solid #DBDCDF;
+    }
+
+    .navbar-brand{
+        width: 25%;
+    }
+
+    a.navbar-brand{
+        height: 100%;
+    }
+
+    .navbar-brand img{
+        left: 30%;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .navbar-nav{
+        display: flex;
+    }
+
+    .navbar-nav li a{
+        font-family: 'Poppins', sans-serif;
+        font-size: 17.6px;
+        font-weight: 900;
+    }
+
+    .navbar-collapse{
+        background-color: #fff;
+        box-sizing: border-box;
+        border: 1px solid #DBDCDF;
+        text-align: center;
+    }
+
+    .hide-on-mini{
+        display: none !important;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-image: none;
+        width: 100%;
+        height: 1500px;
+        box-shadow: none;
+        z-index: 2;
+    }
+
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-menu {display: block;}
+
+    /* product */
+    .product-nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-product {
+        position: relative;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 1px solid #DBDCDF;
+        background-color: #fff;
+    }
+
+    .container-product .image {
+        display: block;
+        width: 368.656px;
+        height: 240px;
+    }
+
+
+    .container-product:hover .overlay {
+        height: 100%;
+    }
+
+    .container-product .logo {
+        color: #000;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 18%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product .deskripsi {
+        color: #000;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product .up {
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        top: 92%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    /* offcanvas produk */
+
+    .offcanvas{
+        width: 100% !important;
+        background-image: url('../img/batik.jpg');
+    }
+
+    .btn-off-close{
+        color: #fff;
+    }
+
+    .btn-off-close i{
+        font-size: 30px;
+    }
+
+    .btn-nav-link{
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .btn-nav-link:hover{
+        outline: none;
+    }
+
+    .product-home{
+        margin: 30px 0 30px 0;
+    }
+
+    /* home */
+
+    .container-product-home {
+        display: none;
+    }
+
+    /* swiper product home */
+
+    .responsive-slider{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+
+    .swiper-prod {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-prod .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        box-sizing: border-box;
+        border: 2px solid #DBDCDF;
+        cursor: pointer;
+        height: 100px;
+    }
+
+    .swiper-prod .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .container-product-slide {
+        position: relative;
+        width: 280px;
+        height: 240px;
+        margin-bottom: 10px;
+        padding-right: 60px;
+        border: 1px solid #DBDCDF;
+        background-color: #fff;
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        border-bottom-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .container-product-slide .image {
+        display: block;
+        width: 368.656px;
+        height: 240px;
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        border-bottom-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+    }
+
+    .container-product-slide .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: url('../img/batik.jpg');
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+        border-bottom-right-radius: 34px;
+        border-bottom-left-radius: 34px;
+        transition: .5s ease;
+    }
+
+    .container-product-slide:hover .overlay {
+        height: 100%;
+    }
+
+    .container-product-slide .logo {
+        color: #000;
+        font-size: 30px;
+        position: absolute;
+        top: 15%;
+        left: 18%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product-slide .deskripsi {
+        color: #000;
+        font-size: 20px;
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product-slide .up {
+        color: #000;
+        font-size: 15px;
+        position: absolute;
+        top: 92%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product-slide .detail {
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product-slide .detail-logo {
+        color: #fff;
+        font-size: 20px;
+        position: absolute;
+        top: 15%;
+        left: 70%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+    .container-product-slide .btn-light {
+        position: absolute;
+        font-size: 15px;
+        color: #fff;
+        top: 85%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 250PX;
+        background-color: transparent;
+    }
+
+    .container-product-slide .btn-light:hover {
+        background-color: #FFF;
+        color: #000;
+        transition: all 1s;
+    }
+
+    .to-service .btn-dark{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /* services */
+
+    .prelaude{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .prelaude .kiri img{
+        width: 100%;
+    }
+
+    .container-service .counter{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .counter .tahun-berdiri{
+        width: 100%;
+        text-align: center;
+    }
+
+    .counter .pekerja{
+        width: 100%;
+        text-align: center;
+    }
+
+    .counter .client{
+        width: 100%;
+        text-align: center;
+    }
+
+    .counter .client-puas{
+        width: 100%;
+        text-align: center;
+    }
+
+    .counter .cabang{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-service .devolopment{
+        display: none;
+    }
+    /* slider/swiper services */
+
+    .swiper-service {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-service .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-service .swiper-slide .container-dev .img {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 30%;
+    }
+
+    .container-service .four .btn-dark{
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /* about-us */
+
+    .container-about .about-2 .judul{
+        font-size: 25px;
+    }
+
+    .container-about .about-3 .about-baris-1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-about .about-3 .about-baris-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .container-about .about-3 .about-baris-3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-3 .about-baris-1 .kiri{
+        width: 100%;
+    }
+
+    .about-3 .about-baris-1 .kanan{
+        width: 100%;
+    }
+
+    .about-3 .about-baris-2 .kiri{
+        width: 100%;
+    }
+
+    .about-3 .about-baris-2 .kanan{
+        width: 100%;
+    }
+    .about-3 .about-baris-3 .kiri{
+        width: 100%;
+    }
+
+    .about-3 .about-baris-3 .kanan{
+        width: 100%;
+    }
+
+    /* footer */
+    .contact-info{
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (width: 1024px) {
+    .container-service .box-dev-1{
+        width: 250px;
+        height: 300px;
+    }
+
+    .container-service .box-dev-2{
+        width: 250px;
+        height: 300px;
+    }
+
+    .container-service .box-dev-3{
+        width: 250px;
+        height: 300px;
+    }
+}
+
+@media screen and (height: 1031px) {
+    .hide-on-mini{
+        display: none;
+    }
+
+    .nav-link{
+        padding-left: 14px;
+    }
+
+    .offcanvas{
+        width: 100% !important;
+        background-image: url('../img/batik.jpg');
+    }
+
+    .btn-off-close{
+        color: #fff;
+    }
+
+    .btn-off-close i{
+        font-size: 30px;
+    }
+
+    .btn-nav-link{
+        font-weight: bold;
+        font-size: large;
+    }
+
+    .btn-nav-link:hover{
+        outline: none;
+    }
+
+    .product-home{
+        margin: 30px 0 30px 0;
+    }
+
+    .about-3 .about-baris-1 .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-3 .about-baris-2 .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    .about-3 .about-baris-3 .image {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+}
