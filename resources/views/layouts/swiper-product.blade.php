@@ -12,7 +12,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -28,7 +28,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -44,7 +44,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
@@ -140,11 +140,11 @@
                 <div class="overlay">
                     <h1 class="detail-logo">detail logo</h1>
                     <h1 class="detail">Product 1</h1>
-                    <a href="#" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
+                    <a href="{{ route('product.show') }}" class="btn btn-light">Pelajari Selengkapnya <i class="fa-solid fa-angles-right"></i> </a>
                 </div>
             </div>
         </div>
 
     </div>
-    
+
 </div>

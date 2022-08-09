@@ -20,4 +20,9 @@ class ViewsControllers extends Controller
     {
         return view('services');
     }
+
+    public function product()
+    {
+        return view('products.show');
+    }
 }

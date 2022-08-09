@@ -17,4 +17,5 @@ use App\Http\Controllers\ViewsControllers;
 Route::get('/', [ViewsControllers::class, 'home'])->name('home');
 Route::get('/about_us', [ViewsControllers::class, 'about'])->name('about');
 Route::get('/service', [ViewsControllers::class, 'service'])->name('service');
+Route::get('/product/index', [ViewsControllers::class, 'product'])->name('product.show');
 

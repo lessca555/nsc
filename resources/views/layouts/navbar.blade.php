@@ -12,9 +12,9 @@
                 </a>
                 <ul class="dropdown-menu">
                     <div class="row col-md-12 container">
-                        <h2>LIST PRODUCTS</h2>
+                        <h2 class="judul">LIST PRODUCTS</h2>
                         <div class="col-md-4">
-                            <a href="#">
+                            <a href="{{ route('product.show') }}">
                                 <div class="container-product">
                                     <div class="image">
                                         <h1 class="logo">logo</h1>
@@ -29,7 +29,7 @@
                         </div>
 
                         <div class="col-md-4">
-                            <a href="#">
+                            <a href="{{ route('product.show') }}">
                                 <div class="container-product">
                                     <div class="image">
                                         <h1 class="logo">logo</h1>
@@ -43,7 +43,7 @@
 
                         </div>
                         <div class="col-md-4">
-                            <a href="#">
+                            <a href="{{ route('product.show') }}">
                                 <div class="container-product">
                                     <div class="image">
                                         <h1 class="logo">logo</h1>
@@ -59,22 +59,7 @@
 
 
                         <div class="col-md-4">
-                            <a href="#">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <a href="#">
+                            <a href="{{ route('product.show') }}">
                                 <div class="container-product">
                                     <div class="image">
                                         <h1 class="logo">logo</h1>
@@ -89,7 +74,22 @@
                         </div>
 
                         <div class="col-md-4">
-                            <a href="#">
+                            <a href="{{ route('product.show') }}">
+                                <div class="container-product">
+                                    <div class="image">
+                                        <h1 class="logo">logo</h1>
+                                        <h1 class="deskripsi">deskripsi</h1>
+                                        <div class="slide-up"></div>
+                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
+                                    </div>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <a href="{{ route('product.show') }}">
                                 <div class="container-product">
                                     <div class="image">
                                         <h1 class="logo">logo</h1>
@@ -148,7 +148,7 @@
                         <div class="row col-md-12 container">
                             <h2>LIST PRODUCTS</h2>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="{{ route('product.show') }}">
                                     <div class="container-product">
                                         <div class="image">
                                             <h1 class="logo">logo</h1>
@@ -163,7 +163,7 @@
                             </div>
 
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="{{ route('product.show') }}">
                                     <div class="container-product">
                                         <div class="image">
                                             <h1 class="logo">logo</h1>
@@ -177,7 +177,7 @@
 
                             </div>
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="{{ route('product.show') }}">
                                     <div class="container-product">
                                         <div class="image">
                                             <h1 class="logo">logo</h1>
@@ -193,22 +193,7 @@
 
 
                             <div class="col-md-4">
-                                <a href="#">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="#">
+                                <a href="{{ route('product.show') }}">
                                     <div class="container-product">
                                         <div class="image">
                                             <h1 class="logo">logo</h1>
@@ -223,7 +208,22 @@
                             </div>
 
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <h1 class="logo">logo</h1>
+                                            <h1 class="deskripsi">deskripsi</h1>
+                                            <div class="slide-up"></div>
+                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
+                                        </div>
+                                    </div>
+
+                                </a>
+
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
                                     <div class="container-product">
                                         <div class="image">
                                             <h1 class="logo">logo</h1>
