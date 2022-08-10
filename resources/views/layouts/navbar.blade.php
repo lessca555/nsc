@@ -10,102 +10,93 @@
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 PRODUCT
                 </a>
-                <ul class="dropdown-menu">
-                    <div class="row col-md-12 container">
-                        <h2 class="judul">LIST PRODUCTS</h2>
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
+                <div class="dropdown-menu">
+                    <div class="drop-prod">
+                        <div class="row col-md-12 container">
 
-                            </a>
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-md-4">
+                                <a href="{{ route('product.show') }}">
+                                    <div class="container-product">
+                                        <div class="image">
+                                            <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                        </div>
+                                        <div class="deskripsi">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
 
                         </div>
-
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-                        <div class="col-md-4">
-                            <a href="{{ route('product.show') }}">
-                                <div class="container-product">
-                                    <div class="image">
-                                        <h1 class="logo">logo</h1>
-                                        <h1 class="deskripsi">deskripsi</h1>
-                                        <div class="slide-up"></div>
-                                        <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                    </div>
-                                </div>
-
-                            </a>
-
-                        </div>
-
-
                     </div>
-                </ul>
+                </div>
+
             </li>
 
             <li class="nav-item">
@@ -144,102 +135,97 @@
                     <button type="button" class="btn btn-off-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa-solid fa-arrow-left"></i></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="dropdown-menu">
-                        <div class="row col-md-12 container">
-                            <h2>LIST PRODUCTS</h2>
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
+                    <div class="dropdown-menu">
+                        <div class="drop-prod">
+                            <div class="row col-md-12 container">
 
-                                </a>
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a href="{{ route('product.show') }}">
+                                        <div class="container-product">
+                                            <div class="image">
+                                                <img src="{{ url('asset/img/product/bwa.png') }}" alt="">
+                                            </div>
+                                            <div class="deskripsi">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, similique?</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </div>
 
                             </div>
-
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-
-
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-
-                            <div class="col-md-4">
-                                <a href="{{ route('product.show') }}">
-                                    <div class="container-product">
-                                        <div class="image">
-                                            <h1 class="logo">logo</h1>
-                                            <h1 class="deskripsi">deskripsi</h1>
-                                            <div class="slide-up"></div>
-                                            <h1 class="up">info selengkapnya <i class="fa-solid fa-angles-up"></i></h1>
-                                        </div>
-                                    </div>
-
-                                </a>
-
-                            </div>
-
-
                         </div>
-                    </ul>
+                    </div>
                 </div>
             </div>
             {{-- <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
