@@ -28,7 +28,7 @@
                 @yield('content')
             </main>
 
-            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-chevron-up"></i></button>
+            <button onclick="topFunction()" id="myBtn" title="Go to top" class="to-top"><i class="fa-solid fa-chevron-up"></i></button>
 
             <footer id="contacts" class="contacts">
                 @include('layouts.footer')
@@ -43,6 +43,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
         {{-- js --}}
         <script src="{{ url('asset/js/app.js') }}"></script>
     </body>

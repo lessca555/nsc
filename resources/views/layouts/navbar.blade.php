@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('home') }}">
+        <a class="navbar-brand" href="{{ route('home') }}" id="home">
             <img src="{{ url('asset/img/logo.png') }}" alt="">
         </a>
 
@@ -108,16 +108,17 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="#contacts">CONTACT US</a>
+                <a data-scroll class="nav-link" href="#contacts">CONTACT US</a>
             </li>
 
 
         </ul>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
         </button>
-
 
     </div>
 

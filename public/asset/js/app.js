@@ -79,4 +79,6 @@ let swiper_service = new Swiper(".swiper-service", {
     },
 });
 
-
+let scroll = new SmoothScroll('a[href*="#contacts"]', {
+    speed: 1,
+})
